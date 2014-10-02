@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 foo = {ruby: 'backend', html: 'frontend'}.send(:invert)
 blah = foo.invert

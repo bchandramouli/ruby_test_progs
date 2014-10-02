@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 def add(*nums)
   nums.inject(0){ | sum, num | sum = sum + num}

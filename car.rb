@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 $ppg = 3.5 # price_per_gallon is $3.5
 $mpg = 20 # 20 is the fuel economy

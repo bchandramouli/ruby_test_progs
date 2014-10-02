@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 require "stripe"
 Stripe.api_key = "sk_test_BQokikJOvBiI2HlWgH4olfQ2"

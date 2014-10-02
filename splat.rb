@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 def introduction(age, gender, *names)
   return names.collect{[]){|list, name} list + name}

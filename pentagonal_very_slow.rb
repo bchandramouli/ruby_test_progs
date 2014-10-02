@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 num_array = (1..4000)
 pent_array = (num_array).map { |n| n * (3 * n - 1) / 2 }
