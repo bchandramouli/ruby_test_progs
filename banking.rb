@@ -20,7 +20,7 @@ class Bank
 
 	def withdraw(person, money)
 		if (@accounts[person.name] < money)
-			puts "#{person.name} does not have enough money in the account to withdraw $#{money}"
+			puts "#{person.name} does not have enough money in the account to withdraw $#{money}."
 			return
 		end
 		@accounts[person.name] -= money
@@ -30,7 +30,7 @@ class Bank
 
 	def deposit(person, money)
 		if (person.cash < money)
-			puts "#{person.name} does not have enough cash to deposit $#{money}"
+			puts "#{person.name} does not have enough cash to deposit $#{money}."
 			return
 		end
 		@accounts[person.name] += money
