@@ -49,10 +49,8 @@ class Recipe
 		puts "Recipe: #{@title}"
 		puts "Ingredients: #{@ingredients.join(' ')}"
 		s_str = ""
-		i = 1
 		@steps.each do |s|
-			s_str << i.to_s + ". " + s + "\n"
-			i += 1
+			s_str << (@steps.index(s) + 1).to_s + ". " + s + "\n"
 		end
 		puts "Steps: \n#{s_str}"
 		puts "\n"
